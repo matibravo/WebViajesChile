@@ -51,6 +51,11 @@ div .carousel-item .active{
     background-color: #00b4d8;
 }
 
+/* seccion pie de página*/
+#Footer{
+    background-color: #00b4d8;
+}
+
 @media (max-width: 576px){
     .carousel-item{
         height: 37vh;
