@@ -1,0 +1,63 @@
+/*sección carrusel*/
+.carousel-item{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+div .carousel-item .active{
+    margin: 0;
+}
+
+/*sección presentación*/
+
+#presentacion{
+    background-color: #000;
+}
+
+#presentacion hr{
+    height: 1px;
+    background-color: #00b4d8;
+}
+
+.contenedor-icon{
+    width: 100%;
+    background-color: #00b4d8;
+}
+
+/*sección destacados*/
+#destacados{
+    background-color: #000;
+}
+
+#destacados hr{
+    height: 1px;
+    background-color: #00b4d8;
+}
+
+#destacados .card-body{
+    background-color: #00b4d8;
+}
+
+/*seccion contacto*/
+#contacto{
+    background-color: #000;
+}
+
+#contacto hr{
+    height: 1px;
+    background-color: #00b4d8;
+}
+
+@media (max-width: 576px){
+    .carousel-item{
+        height: 37vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    
+}
