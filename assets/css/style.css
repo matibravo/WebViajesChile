@@ -1,3 +1,13 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/*sección nav*/
+nav a{
+    font-weight: 600;
+}
+
 /*sección carrusel*/
 .carousel-item{
     height: 100vh;
@@ -27,6 +37,10 @@ div .carousel-item .active{
     background-color: #00b4d8;
 }
 
+#presentacion p{
+    font-weight: 200;
+}
+
 /*sección destacados*/
 #destacados{
     background-color: #000;
@@ -41,6 +55,11 @@ div .carousel-item .active{
     background-color: #00b4d8;
 }
 
+#destacados p{
+    font-weight: 200;
+    
+}
+
 /*seccion contacto*/
 #contacto{
     background-color: #000;
@@ -51,6 +70,17 @@ div .carousel-item .active{
     background-color: #00b4d8;
 }
 
+/* seccion pie de página*/
+#Footer{
+    background-color: #00b4d8;
+}
+
+#Footer a{
+    text-decoration: none;
+    color: white;
+}
+
+/*vista celular*/
 @media (max-width: 576px){
     .carousel-item{
         height: 37vh;
